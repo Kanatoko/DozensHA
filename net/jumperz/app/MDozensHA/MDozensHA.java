@@ -166,6 +166,7 @@ hosts = ( List )configMap.get( "hosts" );
 if( configMap.containsKey( "default" ) )
 	{
 	defaultConf = ( Map )configMap.get( "default" );
+	debug( defaultConf );
 	for( int i = 0; i < hosts.size(); ++i )
 		{
 		Map base = new HashMap();

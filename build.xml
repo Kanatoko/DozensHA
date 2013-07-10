@@ -42,6 +42,7 @@
     	<mkdir dir="output/lib" />
     	<jar destfile="output/lib/dozensHA.jar" basedir="bin" />
     	<copy file="conf/http-example.conf" tofile="output/http-example.conf"/>
+    	<copy file="conf/http-with-default-example.conf" tofile="output/http-with-default-example.conf"/>
     	<copy file="conf/tcp-example.conf" tofile="output/tcp-example.conf"/>
     	<copy file="lib/jsonic-0.9.6.jar" tofile="output/lib/jsonic-0.9.6.jar"/>
     	<copy file="lib/jumperz_util.jar" tofile="output/lib/jumperz_util.jar"/>

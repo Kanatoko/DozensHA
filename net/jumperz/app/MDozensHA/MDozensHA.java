@@ -194,7 +194,6 @@ return cachedRecordMap;
 public Map addRecord( String host, String ip, int ttl )
 throws IOException
 {
-
 Map data = new HashMap();
 data.put( "domain", zone );
 data.put( "type", "A" );
